@@ -7,7 +7,7 @@ def test_register_and_login(driver):
     register_page.fill_registration_form(
         firstname="Test", 
         lastname="User", 
-        email="tupica@example.com", 
+        email="almir1234@example.com", 
         telephone="123456789", 
         password="password123", 
         confirm_password="password123"

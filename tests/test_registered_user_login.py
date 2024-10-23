@@ -7,6 +7,6 @@ def test_login(driver):
 
     home_page.open_login_modal()
 
-    home_page.login(email="tupica@example.com", password="password123")
+    home_page.login(email="almir1234@example.com", password="password123")
 
     assert home_page.is_logout_link_visible(), "Logout link is not visible, login may have failed."
